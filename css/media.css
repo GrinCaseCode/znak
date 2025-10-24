@@ -334,7 +334,6 @@
     .footer {
         padding-top: 41px;
         font-size: 13px;
-        padding-bottom: 50px;
     }
     .footer__nav_big,
     .footer__title {
@@ -1814,6 +1813,7 @@
     .footer {
         padding-top: 35px;
         font-size: 13px;
+        padding-bottom: 50px;
     }
     .footer__column {
         margin-left: 0;
