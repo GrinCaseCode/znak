@@ -1595,6 +1595,7 @@
         font-size: 14px;
         display: none;
     }
+    .header__wrapper .header__personal,
     .header__wrapper .phones-list,
     .header__wrapper .header__buttons,
     .header__wrapper .search-main {
@@ -1639,11 +1640,11 @@
     }
     .item-billbord__title {
         font-size: 23px;
+        margin-bottom: 15px;
     }
     .item-billbord {
         height: 380px;
         padding: 20px 13px;
-        padding-bottom: 14px;
         font-size: 13px;
     }
     .slider-billbord {
@@ -1664,7 +1665,7 @@
     }
     .item-billbord__image img {
         border-radius: 20px;
-        object-position: right;
+        object-position: 75% 50%;
     }
     .item-billbord__image::after {
         position: absolute;
@@ -1886,34 +1887,119 @@
     .footer__title_haschild.active::after {
         transform: rotate(180deg);
     }
+    .buttons-fixed {
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        z-index: 400;
+        background: #fff;
+        position: fixed;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+    .btn-fixed {
+        width: 50px;
+        height: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: relative;
+    }
+    .btn-fixed__value {
+	width: 20px;
+	height: 20px;
+        top: 5px;
+        right: 0px;
+	font-size: 13px;
+	line-height: 160%;
+	color: #fff;
+	font-weight: 600;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	border-radius: 50%;
+	background: #fe4b0c;
+	color: #fff;
+	position: absolute;
+}
+.btn-fixed_catalog img {
+    width: 26px;
+}
+ /*Style Sandwich*/
+    .sandwich {
+        width: 40px;
+        height: 40px;
+        padding-top: 10px;
+        display: -webkit-flex;
+        display: -moz-flex;
+        display: -ms-flex;
+        display: -o-flex;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        z-index: 20;
+        flex: none;
+        cursor: pointer;
+    }
+    .sw-topper {
+        position: relative;
+        top: 0px;
+        width: 32px;
+        height: 2px;
+        display: block;
+        margin: 0;
+        background-color: #000;
+        border-radius: 2px;
+        border: medium none;
+        transition: transform 0.5s, top 0.2s;
+    }
+    .sw-bottom {
+        position: relative;
+        top: 7px;
+        width: 32px;
+        height: 2px;
+        display: block;
+        margin: 0;
+        background-color: #000;
+        border-radius: 2px;
+        border: medium none;
+        transition: transform 0.5s, top 0.2s;
+    }
+    .sw-footer {
+        position: relative;
+        top: 14px;
+        width: 32px;
+        height: 2px;
+        display: block;
+        margin: 0;
+        background-color: #000;
+        border-radius: 2px;
+        border: medium none;
+        transition: transform 0.5s, top 0.2s;
+    }
+    .sandwich.active .sw-topper {
+        top: 9px;
+        transform: rotate(45deg);
+    }
+    .sandwich.active .sw-bottom {
+        opacity: 0;
+    }
+    .sandwich.active .sw-footer {
+        top: 5px;
+        transform: rotate(-45deg);
+    }
 }
 
-/* Small Devices, Tablets */
-@media only screen and (max-width : 768px) {}
 
-/* Extra Small Devices, Phones */
-@media only screen and (max-width : 480px) {}
-
-/* Custom, iPhone Retina */
-@media only screen and (max-width : 320px) {}
-
-
-/*==========  Mobile First Method  ==========*/
-
-/* Custom, iPhone Retina */
-@media only screen and (min-width : 320px) {}
-
-/* Extra Small Devices, Phones */
-@media only screen and (min-width : 480px) {}
-
-/* Small Devices, Tablets */
-@media only screen and (min-width : 768px) {}
 
 /* Medium Devices, Desktops */
 @media only screen and (min-width : 992px) {
     .footer__content {
         display: block !important;
     }
+    .sandwich,
+    .buttons-fixed,
     .show-mob {
         display: none !important;
     }

@@ -632,6 +632,7 @@ form {
 	padding-bottom: 85px;
 	background: #414141;
 	color: #fff;
+	overflow: hidden;
 }
 .btn-main.btn-main_page {
 	background: #fff;
@@ -782,6 +783,7 @@ form {
 	background: #414141;
 	color: #fff;
 	z-index: 1;
+	overflow: hidden;
 }
 .consultation__descr {
 	font-size: 36px;

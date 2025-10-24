@@ -1,35 +1,5 @@
 $(document).ready(function() {
 
-
-//прилипающие меню
-var $menu = $(".header");
-$(window).scroll(function(){
-  if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
-    $menu.removeClass("default").addClass("fixed");
-  } else if($(this).scrollTop() <= 0 && $menu.hasClass("fixed")) {
-    $menu.removeClass("fixed").addClass("default");
-  }
-  
-});
-
-if ( $(this).scrollTop() > 0 && $menu.hasClass("default") ){
-    $menu.removeClass("default").addClass("fixed");
-  } else if($(this).scrollTop() <= 0 && $menu.hasClass("fixed")) {
-    $menu.removeClass("fixed").addClass("default");
-  }
-
-
-
-	//кнопка sandwich
-	$(".sandwich").click(function() {
-		$(this).toggleClass("active");
-		if ($(".menu-mobile").is(":hidden")) {
-			$(".menu-mobile").slideDown(200);
-		} else {
-			$(".menu-mobile").slideUp(200);
-		}
-	});
-
 	  {
     if ($(window).width() < 992) { 
       $(".footer__title_haschild").click(function() {
