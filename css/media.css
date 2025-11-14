@@ -3809,6 +3809,13 @@
         background-position: right 12px center;
         background-size: 22px;
     }
+    .consultation__descr {
+        padding-left: 26px;
+    }
+    .delivery-info p:last-child,
+    .delivery-info p {
+        margin-bottom: 10px;
+    }
 }
 
 @media only screen and (max-width : 768px) {
@@ -3817,6 +3824,9 @@
     }
     .row_etaps>div:nth-child(even) .item-etap__arrows {
         display: block;
+    }
+    .item-etap__arrows {
+        transform: rotate(90deg);
     }
 }
 @media only screen and (max-width : 480px) {
