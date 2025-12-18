@@ -42,6 +42,7 @@ $(document).ready(function () {
 		$("body").removeClass("no-scroll");
 	});
 
+
 	$(".menu-mobile .menu__arrow").click(function () {
 			$(this).parent().parent().siblings().find("ul").slideUp(200);
 		$(this).parent().parent().siblings().find(".menu__arrow").removeClass("active");
