@@ -3863,7 +3863,7 @@
     .delivery-info p {
         margin-bottom: 10px;
     }
-        .no-scroll {
+    .no-scroll {
         overflow: hidden;
     }
     .menu-overlay {
@@ -3880,7 +3880,7 @@
     .menu-mobile {
         width: 100%;
         padding: 20px 15px;
-        padding-bottom: 30px;
+        padding-bottom: 70px;
         top: 100%;
         max-height: calc(100vh - 70px);
         overflow: auto;
@@ -3890,14 +3890,14 @@
         position: absolute;
         display: none;
     }
-        .search-main input {
+    .search-main input {
         height: 42px;
         padding: 0 16px;
         padding-right: 48px;
         font-size: 14px;
         border-radius: 6px;
     }
-        .search-main__btn {
+    .search-main__btn {
         width: 46px;
         background-size: 19px auto;
     }
@@ -3911,34 +3911,34 @@
         padding: 12px 15px;
     }
     .menu__arrow {
-    width: 44px;
-    height: 44px;
-    transform: rotate(90deg);
-    transition: all 0.3s;
-}
-.menu__arrow.active {
-    transform: rotate(-90deg);
-}
-.menu__list ul {
-    width: 100%;
-    position: relative;
-    top: 0;
-    left: 0;
-    right: 0;
-    visibility: visible;
-    opacity: 1;
-    transition: initial;
-}
-.menu__list ul li a {
-    padding: 10px 15px;
-    border-bottom: 1px solid #5c5d5f;
-}
-.menu__list ul {
-    display: none;
-}
-.menu-mobile .phones-list {
-    margin-top: 22px;
-}
+        width: 44px;
+        height: 44px;
+        transform: rotate(90deg);
+        transition: all 0.3s;
+    }
+    .menu__arrow.active {
+        transform: rotate(-90deg);
+    }
+    .menu__list ul {
+        width: 100%;
+        position: relative;
+        top: 0;
+        left: 0;
+        right: 0;
+        visibility: visible;
+        opacity: 1;
+        transition: initial;
+    }
+    .menu__list ul li a {
+        padding: 10px 15px;
+        border-bottom: 1px solid #5c5d5f;
+    }
+    .menu__list ul {
+        display: none;
+    }
+    .menu-mobile .phones-list {
+        margin-top: 22px;
+    }
 }
 
 @media only screen and (max-width : 768px) {
