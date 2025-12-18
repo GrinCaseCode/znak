@@ -3094,11 +3094,13 @@
         font-size: 14px;
         display: none;
     }
-    .header__wrapper .header__personal,
     .header__wrapper .phones-list,
     .header__wrapper .header__buttons,
     .header__wrapper .search-main {
         display: none;
+    }
+    .header__wrapper .logo {
+        margin-right: auto;
     }
     .btn-header {
         width: 25px;
@@ -3112,7 +3114,9 @@
         font-size: 10px;
     }
     .header__personal {
-        gap: 16px;
+        gap: 20px;
+        padding-right: 0;
+        margin-right: 20px;
     }
     .header__main {
         padding: 15px 0;
@@ -3307,7 +3311,6 @@
     .footer {
         padding-top: 35px;
         font-size: 13px;
-        padding-bottom: 50px;
     }
     .footer__column {
         margin-left: 0;
