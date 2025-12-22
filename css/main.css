@@ -22,7 +22,7 @@ body {
 	color: #000;
 	overflow-x: hidden;
 	margin: 0;
-	background-color: #fff; 
+	background-color: #fff;
 }
 button {
 	cursor: pointer;
@@ -2023,9 +2023,9 @@ input[type=number] {
 }
 .item-basket__title {
 	font-size: 20px;
-line-height: 140%;
-color: #000;
-font-weight: 600;
+	line-height: 140%;
+	color: #000;
+	font-weight: 600;
 	display: block;
 }
 .item-basket__content {
@@ -2087,18 +2087,18 @@ font-weight: 600;
 .form-personal__title {
 	font-size: 32px;
 	margin-bottom: 10px;
-line-height: 140%;
-color: #050505;
-font-weight: 600;
-text-align: center;
+	line-height: 140%;
+	color: #050505;
+	font-weight: 600;
+	text-align: center;
 }
 .form-personal__descr {
 	font-size: 20px;
 	margin-bottom: 43px;
-line-height: 140%;
-text-align: center;
-color: #414141;
-font-weight: 600;
+	line-height: 140%;
+	text-align: center;
+	color: #414141;
+	font-weight: 600;
 }
 .form-personal__buttons {
 	padding-top: 10px;
@@ -2113,7 +2113,7 @@ font-weight: 600;
 	border-bottom: 1px #fe4b0c solid;
 	line-height: 140%;
 	font-weight: 600;
-	display: inline-block;	
+	display: inline-block;
 }
 .form-personal__bottom {
 	padding-top: 43px;

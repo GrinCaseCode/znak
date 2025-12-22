@@ -22,7 +22,7 @@
         width: 21px;
     }
     .logo img {
-        width: 209px; 
+        width: 209px;
     }
     .header__wrapper {
         gap: 21px;
@@ -906,51 +906,51 @@
         padding-left: 35px;
     }
     .item-basket__title {
-    font-size: 18px;
+        font-size: 18px;
     }
     .item-basket__content {
-    max-width: 435px;
-    margin-left: 33px;
+        max-width: 435px;
+        margin-left: 33px;
     }
     .sidebar-basket .btn-main {
-    margin-top: 50px;
+        margin-top: 50px;
     }
     .sidebar-basket__price {
-    font-size: 28px;
+        font-size: 28px;
     }
     .sidebar-basket {
-    padding: 20px;
+        padding: 20px;
     }
     .item-basket {
-    padding-right: 25px;
+        padding-right: 25px;
     }
     .page-basket {
         padding-bottom: 200px;
     }
-.page-authorization {
-    padding-top: 100px;
-    padding-bottom: 150px;
-}
-.form-personal {
-    width: 490px;
-    padding: 30px 60px;
-    padding-bottom: 40px;
-}
-.form-personal__title {
-    font-size: 28px;
-    margin-bottom: 8px;
-}
-.form-personal__descr {
-    font-size: 17px;
-    margin-bottom: 29px;
-}
-.form-personal__buttons .btn-main {
-    min-width: 185px;
-}
-.form-personal__bottom {
-    padding-top: 33px;
-    font-size: 18px;
-}
+    .page-authorization {
+        padding-top: 100px;
+        padding-bottom: 150px;
+    }
+    .form-personal {
+        width: 490px;
+        padding: 30px 60px;
+        padding-bottom: 40px;
+    }
+    .form-personal__title {
+        font-size: 28px;
+        margin-bottom: 8px;
+    }
+    .form-personal__descr {
+        font-size: 17px;
+        margin-bottom: 29px;
+    }
+    .form-personal__buttons .btn-main {
+        min-width: 185px;
+    }
+    .form-personal__bottom {
+        padding-top: 33px;
+        font-size: 18px;
+    }
 }
 
 
@@ -1846,26 +1846,26 @@
     .menu-dropdown.menu-dropdown--main {
         width: 350px;
     }
-        .item-basket__content {
+    .item-basket__content {
         max-width: 385px;
         margin-left: 20px;
     }
-        .item-basket__title {
+    .item-basket__title {
         font-size: 16px;
     }
     .item-basket__image {
-    width: 150px;
-    height: 130px;
+        width: 150px;
+        height: 130px;
     }
-        .sidebar-basket__price {
+    .sidebar-basket__price {
         font-size: 25px;
     }
     .sidebar-basket__title {
-    margin-bottom: 6px;
-}
-.sidebar-basket__head {
-    margin-bottom: 18px;
-}
+        margin-bottom: 6px;
+    }
+    .sidebar-basket__head {
+        margin-bottom: 18px;
+    }
     .sidebar-basket .btn-main {
         margin-top: 42px;
     }
@@ -1877,10 +1877,10 @@
         padding-top: 65px;
         padding-bottom: 125px;
     }
-        .form-personal {
+    .form-personal {
         width: 455px;
-        }
-            .form-personal__bottom {
+    }
+    .form-personal__bottom {
         padding-top: 27px;
         font-size: 16px;
     }
@@ -2775,9 +2775,9 @@
     .menu {
         max-width: 314px;
     }
-        .item-basket__content {
+    .item-basket__content {
         max-width: 300px;
-        }
+    }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -3173,10 +3173,10 @@
     .about-main {
         padding: 29px 30px;
     }
-        .item-basket__title {
+    .item-basket__title {
         font-size: 14px;
     }
-        .item-basket__content {
+    .item-basket__content {
         max-width: 240px;
     }
     .sidebar-basket__price {
@@ -4068,16 +4068,19 @@
     .form-personal {
         padding: 25px 15px;
     }
-        .form-personal__title {
+    .form-personal__title {
         font-size: 23px;
         margin-bottom: 10px;
     }
-        .form-personal__descr {
+    .form-personal__descr {
         font-size: 15px;
         margin-bottom: 22px;
     }
-        .form-personal__buttons .btn-main {
+    .form-personal__buttons .btn-main {
         min-width: 155px;
+    }
+    .sidebar-basket {
+        margin-top: 20px;
     }
 }
 
