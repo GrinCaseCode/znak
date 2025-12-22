@@ -22,7 +22,7 @@
         width: 21px;
     }
     .logo img {
-        width: 209px;
+        width: 209px; 
     }
     .header__wrapper {
         gap: 21px;
@@ -905,6 +905,52 @@
     .menu__list ul {
         padding-left: 35px;
     }
+    .item-basket__title {
+    font-size: 18px;
+    }
+    .item-basket__content {
+    max-width: 435px;
+    margin-left: 33px;
+    }
+    .sidebar-basket .btn-main {
+    margin-top: 50px;
+    }
+    .sidebar-basket__price {
+    font-size: 28px;
+    }
+    .sidebar-basket {
+    padding: 20px;
+    }
+    .item-basket {
+    padding-right: 25px;
+    }
+    .page-basket {
+        padding-bottom: 200px;
+    }
+.page-authorization {
+    padding-top: 100px;
+    padding-bottom: 150px;
+}
+.form-personal {
+    width: 490px;
+    padding: 30px 60px;
+    padding-bottom: 40px;
+}
+.form-personal__title {
+    font-size: 28px;
+    margin-bottom: 8px;
+}
+.form-personal__descr {
+    font-size: 17px;
+    margin-bottom: 29px;
+}
+.form-personal__buttons .btn-main {
+    min-width: 185px;
+}
+.form-personal__bottom {
+    padding-top: 33px;
+    font-size: 18px;
+}
 }
 
 
@@ -1800,6 +1846,44 @@
     .menu-dropdown.menu-dropdown--main {
         width: 350px;
     }
+        .item-basket__content {
+        max-width: 385px;
+        margin-left: 20px;
+    }
+        .item-basket__title {
+        font-size: 16px;
+    }
+    .item-basket__image {
+    width: 150px;
+    height: 130px;
+    }
+        .sidebar-basket__price {
+        font-size: 25px;
+    }
+    .sidebar-basket__title {
+    margin-bottom: 6px;
+}
+.sidebar-basket__head {
+    margin-bottom: 18px;
+}
+    .sidebar-basket .btn-main {
+        margin-top: 42px;
+    }
+    .page-basket {
+        padding-bottom: 170px;
+    }
+
+    .page-authorization {
+        padding-top: 65px;
+        padding-bottom: 125px;
+    }
+        .form-personal {
+        width: 455px;
+        }
+            .form-personal__bottom {
+        padding-top: 27px;
+        font-size: 16px;
+    }
 }
 @media only screen and (max-width : 1370px) {
     .header__head {
@@ -2691,6 +2775,9 @@
     .menu {
         max-width: 314px;
     }
+        .item-basket__content {
+        max-width: 300px;
+        }
 }
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
@@ -3085,6 +3172,15 @@
     }
     .about-main {
         padding: 29px 30px;
+    }
+        .item-basket__title {
+        font-size: 14px;
+    }
+        .item-basket__content {
+        max-width: 240px;
+    }
+    .sidebar-basket__price {
+        font-size: 20px;
     }
 }
 
@@ -3942,6 +4038,47 @@
     .menu-mobile .phones-list {
         margin-top: 22px;
     }
+    .item-basket {
+        padding-right: 15px;
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+    }
+    .item-basket__content {
+        flex: 1;
+        margin: 0;
+        padding: 0 15px;
+        margin-bottom: 15px;
+    }
+    .item-basket__image {
+        margin-bottom: 15px;
+    }
+    .item-basket__remove {
+        margin: 0 auto;
+    }
+    .page-basket {
+        padding-bottom: 60px;
+    }
+    .page-basket .title-section {
+        margin-bottom: 30px;
+    }
+    .page-authorization {
+        padding-top: 40px;
+        padding-bottom: 70px;
+    }
+    .form-personal {
+        padding: 25px 15px;
+    }
+        .form-personal__title {
+        font-size: 23px;
+        margin-bottom: 10px;
+    }
+        .form-personal__descr {
+        font-size: 15px;
+        margin-bottom: 22px;
+    }
+        .form-personal__buttons .btn-main {
+        min-width: 155px;
+    }
 }
 
 @media only screen and (max-width : 768px) {
@@ -4114,6 +4251,10 @@
     .menu__list>li:hover>.menu__arrow {
         filter: brightness(0) invert(1);
     }
+    .form-personal__bottom a:hover,
+    .link-page:hover {
+        border-color: transparent;
+    }
 }
 
 /*mobile hovers*/
@@ -4219,5 +4360,9 @@
     .menu__list ul li a:active {
         background: #fff;
         color: #fe4b0c;
+    }
+    .form-personal__bottom a:active,
+    .link-page:active {
+        border-color: transparent;
     }
 }
